@@ -1,0 +1,33 @@
+.features{
+    margin-inline: 2.5rem;
+    section{
+        h2{
+            color:rgba(124, 171, 177, 1);
+            font-weight: 400;
+            font-size: 24px;
+
+        }
+        .features-text{
+            display: flex;
+            justify-content: space-between;
+            h1{
+                font-size:48px;
+                width:50%;
+                line-height:56px;
+                font-weight: 600;
+            }
+            p{
+                width:40%;
+                font-size: 1.2vw;
+                color:rgba(0, 0, 0, 1)
+            }
+        }
+    }
+    .features-cards{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        gap:10%;
+        margin-block: 66px;
+    }
+}

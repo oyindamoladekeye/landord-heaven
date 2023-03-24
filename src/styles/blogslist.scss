@@ -1,0 +1,17 @@
+.blogslist{
+    display: flex;
+    justify-content: center;
+    gap:1.35rem;
+
+    .bloglist-text{
+        span{
+            color:rgba(0, 0, 0, 0.5);
+            padding-bottom:10px
+        }
+        p{
+            font-size:1.25rem;
+            font-weight: 400;
+            color:rgba(0, 0, 0, 1);
+        }
+    }
+}

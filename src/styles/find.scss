@@ -1,0 +1,35 @@
+.find-container{
+    background: linear-gradient(93.57deg, #86D2E9 2.12%, #CAE8F1 87.81%);
+    width:100vw;
+    height:384px;
+    color:rgba(0, 0, 0, 1);
+    padding-inline: 2.5rem;
+
+    .find-body{
+        background: url(../assets//find1.png) bottom right no-repeat;
+        height:384px;
+
+
+        p{
+            font-size: 1.5rem;
+            padding-top: 3.3rem;
+            padding-bottom: 2.35rem;
+        }
+
+        h1{
+            font-size:3rem;
+            width:50%;
+            font-weight: 600;
+            padding-bottom: 2.35rem;
+
+        }
+
+        button{
+            background-color: rgba(1, 0, 26, 1);
+            color:rgba(255, 255, 255, 1);
+            padding-block: 1rem;
+            padding-inline: 3.5rem;
+            border-radius: 20px;
+        }
+    }
+}

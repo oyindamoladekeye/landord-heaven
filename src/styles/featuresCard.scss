@@ -1,0 +1,19 @@
+.features-card{
+    display: flex;
+    flex-direction: column;
+    width:33.3%; 
+    padding-top: 66px;
+    border-radius: 0 20px 20px 0 ;
+    box-shadow: 0 1px 10px rgba(152, 145, 145, 0.25);
+    padding-inline: 40px;
+    padding-bottom: 70px;
+    border:0;
+    img{
+        max-width:70px;
+        width:100%;
+        padding-bottom: 60px;
+    }
+    p:nth-child(2){
+      padding-bottom:28px
+    }
+}

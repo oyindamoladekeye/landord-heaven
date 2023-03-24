@@ -1,0 +1,102 @@
+.properties-container{
+    padding-inline:2.5rem;
+    background-color: #F5F9FD;
+    padding-top:6.5rem;
+    .properties-title{
+          display: flex;
+        .properties-heading{
+            h2{
+                color:rgba(124, 171, 177, 1);
+                font-weight: 400;
+                font-size: 24px;
+                margin-bottom: 24px;
+            }
+            h1{
+                font-size:48px;
+                width:55%;
+                line-height:56px;
+                font-weight: 600;
+            }
+        }
+        .explore{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            padding-left:5%;
+            white-space: nowrap;
+        }
+
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap:3%;
+        li{
+            list-style-type: none;
+            max-width:307px;
+            width:100%;
+            background-color: white;
+            padding-bottom: 1.8%;
+            border-radius: 13px;
+            color:rgba(0, 0, 0, 1);
+            margin: 6% 0;
+             
+
+            .properties-img{
+                max-width:300px;
+                width:100%;
+                padding: 4px 0 4px 4px;
+            }
+            .properties-badge{
+                display: flex;
+                gap:15%;
+                align-items: center;
+                padding-top: 4%;
+                padding-inline: 11px;
+
+
+                p{
+                    background-color: rgba(249, 249, 253, 1);
+                    padding: 2.5%;
+                    border-radius: 6px;
+                    padding-inline: 11px;
+
+                }
+            }
+            h3{
+                font-size: 2rem;
+                font-weight: 700;
+                padding-bottom: 2.8%;
+                padding-top: 5.5%;
+                padding-inline: 11px;
+
+            }
+
+            h1{
+                font-weight: 500;
+                font-size: 1.2rem;
+                padding-bottom: 12%;
+                padding-inline: 11px;
+
+            }
+            .properties-icons{
+                display: flex ;
+                justify-content: space-between;
+                align-items: center;
+                padding-inline: 11px;
+
+                div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap:5px;
+
+                    p{
+                        white-space:nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

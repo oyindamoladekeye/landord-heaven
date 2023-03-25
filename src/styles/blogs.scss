@@ -12,11 +12,10 @@
               margin-bottom: 24px;
           }
           h1{
-              font-size:48px;
-              width:55%;
-              line-height:56px;
-              font-weight: 600;
-          }
+            font-size:3vw;
+            width:60%;
+            font-weight: 600;
+        }
       }
       .explore{
           display: flex;
@@ -48,7 +47,7 @@
             h2{
                 padding-bottom:2.23rem;
                 font-weight: 600;
-                font-size:2.6rem;
+                font-size:3vw;
             }
             p{
                 font-weight: 400;
@@ -62,6 +61,34 @@
             flex-direction: column;
             align-items: center;
             width:50%
+        }
+    }
+}@media screen and (max-width:1024px) {
+
+    .blogs-container{
+        .blogs-title{
+        }
+
+        .blogs-post{
+            flex-direction: column;
+
+            .blogs-post-1 , .blogs-post-2{
+                width:100%
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:565px) {
+
+    .blogs-container{
+        .blogs-title{
+            .blogs-heading{
+                h1{
+                    width:auto
+                }
+            }
         }
     }
 }

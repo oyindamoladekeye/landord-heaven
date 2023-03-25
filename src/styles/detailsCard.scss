@@ -21,3 +21,18 @@
         }
     }
 }
+
+@media screen and (max-width:1024px){
+
+    .details-cards-container{
+
+        flex-direction: column-reverse;
+        padding-top: 10px;
+
+        .details-cards-search-icon{
+            margin: auto;
+            width:90%;
+            justify-content: flex-end;
+        }
+    }
+}

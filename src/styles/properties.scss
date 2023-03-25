@@ -12,9 +12,8 @@
                 margin-bottom: 24px;
             }
             h1{
-                font-size:48px;
-                width:55%;
-                line-height:56px;
+                font-size:3.2vw;
+                width:70%;
                 font-weight: 600;
             }
         }
@@ -95,6 +94,21 @@
                     p{
                         white-space:nowrap;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:565px) {
+
+    .properties-container{
+        .properties-title{
+            .properties-heading{
+                h1{
+                    width:auto
                 }
             }
         }

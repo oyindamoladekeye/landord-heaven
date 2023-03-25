@@ -9,17 +9,18 @@
         height:770px;
         padding-top:7rem;
         color:rgba(0, 0, 0, 1);
+        background-size: contain;
 
         .discover{
             font-weight: 600;
-            line-height: 5rem;
-            font-size: 4.5rem;
-            width:50%;
+            // line-height: 5rem;
+            font-size: 5vw;
+            width:70%;
             padding-bottom: 5%;
         }
         .connect{
-            font-size: 1.75rem;
-            line-height: 2rem;
+            font-size: 2vw;
+            // line-height: 2rem;
             width:60%;
             padding-bottom: 7%;
         }

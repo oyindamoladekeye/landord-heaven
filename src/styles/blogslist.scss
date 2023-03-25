@@ -3,14 +3,6 @@
     justify-content: center;
     gap:1.35rem;
 
-    .bloglist-img{
-        max-width: 230px;
-        img{
-            max-width: 230px;
-            width:100%;
-        }
-    }
-
     .bloglist-text{
         span{
             color:rgba(0, 0, 0, 0.5);
@@ -27,6 +19,27 @@
 @media screen and (max-width:1024px) {
     .blogslist{
         padding-bottom: 20px;
+
+
+        .bloglist-img{
+            max-width: 230px;
+            img{
+                max-width: 230px;
+                width:100%;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:378px) {
+    .blogslist{
+
+        .bloglist-text{
+            span{
+                font-size: 4vw;
+            }
+        }
     }
     
 }

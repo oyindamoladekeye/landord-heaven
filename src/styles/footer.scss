@@ -29,7 +29,7 @@ footer{
     .footer-two{
         display: flex;
         justify-content: space-between;
-        width:70%;
+        width:43%;
         align-items: center;
         ul{
             li{
@@ -48,3 +48,49 @@ footer{
     text-align: center;
  }
 }
+
+
+@media screen and (max-width:1024px) {
+    
+    footer{
+        .footer-container{
+            flex-direction: column;
+
+            .footer-one{
+                width: 100%;
+
+                p{
+                    width:50%
+                }
+
+                .socials{
+                    padding-bottom: 20px;
+                }
+            }
+            .footer-two{
+                justify-content: space-around;
+                width: 100%;
+                flex-wrap: wrap;
+
+              ul{
+                padding-top: 10px;
+              }
+            }
+            }
+        }
+ }
+
+@media screen and (max-width:565px) {
+    
+    footer{
+        .footer-container{
+
+            .footer-one{
+
+                p{
+                    width:100%
+                }
+            }
+            }
+        }
+ }

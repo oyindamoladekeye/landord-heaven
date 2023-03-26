@@ -32,6 +32,22 @@
     
 }
 
+@media screen and (max-width:565px) {
+    .blogslist{
+
+
+        .bloglist-img{
+            max-width: 300px;
+            img{
+                max-width: 300px;
+                width:110%;
+            }
+        }
+    }
+    
+}
+
+
 @media screen and (max-width:378px) {
     .blogslist{
 

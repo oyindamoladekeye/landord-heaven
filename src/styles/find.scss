@@ -34,3 +34,14 @@
         }
     }
 }
+
+
+@media screen and (max-width:565px) {
+    .find-container{
+        .find-body{
+            h1{
+                font-size: 4vw;
+            }
+        }
+    }
+}

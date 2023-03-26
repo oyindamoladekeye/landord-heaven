@@ -26,3 +26,23 @@
         }
     }
 }
+
+
+
+@media screen and (max-width:565px) {
+    .header{
+        height:auto;
+
+        .header-container{
+            height:100vw;
+
+
+            .discover{
+                font-size: 6vw;
+            }
+            .connect{
+                font-size: 3vw;
+            }
+        }
+    }
+}

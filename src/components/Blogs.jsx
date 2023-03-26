@@ -33,7 +33,7 @@ export default function Blogs() {
                 <BlogsList img={blog2} date="August 10, 2022" blogs="The modern home aesthetic is a “know it when you see it” style.
                 It’s sleek and minimalist, with a loyalty to black and...."/>
                 <BlogsList img={blog3} date="August 12, 2022" blogs="Bohemian decor is among the most
-                popular home aesthetics. The style is constructed while paying attention to..."/>
+                popular home aesthetics. The style is constructed while paying attention to..." style={{boxShadow: "0px 3px 12px rgba(182, 182, 182, 0.25)" , borderRadius: 20 , border:"1px solid white" , padding:"40px 17px 33px 30px"}}/>
                 <BlogsList img={blog4} date="September 8, 2022" blogs="We love the flexibility wall deor  within this aesthetic. 
                 With personalization at its core, the bohemian..."/>
             </div>

@@ -4,6 +4,7 @@
     padding-bottom: 9.5rem;
     .blogs-title{
         display: flex;
+        justify-content: space-between;
       .blogs-heading{
           h2{
               color:rgba(124, 171, 177, 1);
@@ -22,9 +23,7 @@
           justify-content: center;
           align-items: center;
           gap:10px;
-          padding-left:9%;
           white-space: nowrap;
-          float: right;
       }
     }
 
@@ -68,7 +67,6 @@
     .blogs-container{
         .blogs-title{
         }
-
         .blogs-post{
             flex-direction: column;
 
@@ -84,13 +82,20 @@
 
     .blogs-container{
         .blogs-title{
+            flex-direction: column;
             .blogs-heading{
                 h1{
-                    width:auto
+                    width:auto;
+                    font-size: 4vw;
                 }
+            }
+
+            .explore{
+                justify-content: flex-end;
             }
         }
         .blogs-post{
+            padding-top: 3.4rem;
             .blogs-post-1{
                 h2{
                     font-size: 5vw;
